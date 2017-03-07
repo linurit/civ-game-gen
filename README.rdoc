@@ -1,1 +1,1 @@
-A random game generator for Civilization V.
+A random cyberpunk insult generator.

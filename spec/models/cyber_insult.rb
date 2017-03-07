@@ -45,8 +45,8 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV["ACCESS_SECRET"]
 end
 
-insult = CyberInsult.new
-client.update(insult.print_rules)
+#insult = CyberInsult.new
+#client.update(insult.print_rules)
 
 #insult = CyberInsult.new
 #print insult.print_insult
