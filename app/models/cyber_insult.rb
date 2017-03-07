@@ -46,7 +46,7 @@ client = Twitter::REST::Client.new do |config|
 end
 
 insult = CyberInsult.new
-client.update(insult.print_rules)
+client.update(insult.print_insult)
 
 #insult = CyberInsult.new
 #print insult.print_insult
