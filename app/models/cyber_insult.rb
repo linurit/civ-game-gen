@@ -34,7 +34,7 @@ load Gem.bin_path('bundler', 'bundle')
   def print_insult
     "#{@fl_pronoun} " "#{@fl_comp} " "#{@fl_noun} " "#{@fl_cond}."
   end
-end
+
 
 require 'twitter'
 

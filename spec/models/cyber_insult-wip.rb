@@ -4,18 +4,31 @@
 # class CyberInsult
 #   attr_reader :fl_pronoun, :fl_noun, :fl_comp, :fl_cond
 
+  #Singular pronouns
+  PRONOUNS = ["She", "He"]
 
-  PRONOUNS = ["She", "He", "That bastard", "That bitch", "Neo", "Acid Burn", "The Plague",
-                "J Random Hacker", "That hacker", "That console cowboy",
-                "That decker", "The boss", "My boss", "The new kid", "That kid" ]
+  #Plural form pronouns
+  PRONOUNS2 = ["They", "You", "We"]
 
+  #Articles and posessives
+  ARTICLES = ["That", "The", "My", "Your", "Our"]
+
+  #Adjectives
+  ADJECTIVES = ["ugly", "stupid", "sideways", "Republican", "short", "tall",
+                  "old", "young", "baby", "insubstantial", "marauding",
+                  "pirate", ]
+  #Not actually pronouns
+  PRONOUNS = ["bastard", "bitch", "Neo", "Acid Burn", "Plague",
+                  "J Random Hacker", "hacker", "console cowboy",
+                  "decker", "boss", "boss", "new kid", "That kid" ]
 
   COMPARISON = ["looks like a", "smells like a", "codes like a", "hacks like a",
                 "fucks like a", "works like a", "is a" ]
 
   NOUNS = ["20th century tourist", "wilson", "noob", "fed", "random", "bot",
                 "warez d00d", "l33t d00d", "flatline", "raver", "tourist",
-                "buttonhead", "mall ninja", "choob", "cylon" ]
+                "buttonhead", "mall ninja", "choob", "cylon", "assclown",
+                "asshat", "cocksmoker", "douchecanoe"]
 
   CONDITIONS = ["with no skills", "who just got beat", "three days dead",
                 "with broken hands", "on DSL", "on rollerblades",
