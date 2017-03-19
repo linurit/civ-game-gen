@@ -1,4 +1,3 @@
-require 'rails_helper'
 
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('Gemfile', __FILE__)
 load Gem.bin_path('bundler', 'bundle')
@@ -45,7 +44,7 @@ client = Twitter::REST::Client.new do |config|
   config.consumer_secret     = ENV["CONSUMER_SECRET"]
   config.access_token        = ENV["ACCESS_TOKEN"]
   config.access_token_secret = ENV["ACCESS_SECRET"]
-end
+
 
 insult = CyberInsult.new
 client.update(insult.print_insult)
