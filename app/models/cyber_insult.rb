@@ -11,19 +11,27 @@ class CyberInsult
                 "That decker", "The boss", "My boss", "The new kid", "That kid" ]
 
 
-  COMPARISON = ["looks like a", "smells like a", "codes like a", "hacks like a",
-                "fucks like a", "works like a", "is a", "has eyes like a",
-                "dresses like a" ]
+  COMPARISON = ["looks like a", "looked like a", "smells like a", "smelled like a"
+                "codes like a", "coded like a", "hacks like a", "hacked like a",
+                "fucks like a", "fucked like a", "works like a", "worked like a",
+                "is a", "was a", "has eyes like a", "played like a", "plays like a",
+                "moves like a", "moved like a", "dresses like a", "walks like a",
+                "walked like a", "talked like a", "talks like a", "died like a",
+                "acts like a", "acted like a" ]
 
   NOUNS = ["20th century tourist", "wilson", "noob", "fed", "random", "bot",
                 "warez d00d", "l33t d00d", "flatline", "raver", "tourist",
-                "buttonhead", "mall ninja", "choob", "cylon", "cyber-criminal" ]
+                "buttonhead", "mall ninja", "cyber-criminal", "hacker", "poser",
+                "dot-matrix printer", "algorithm", "blogger", "skid", "virus",
+                "pirate", "COBOL programmer", "C developer", "perl addict",
+                "Apple fanatic" ]
 
   CONDITIONS = ["with no skills", "who just got beat", "three days dead",
                 "with broken hands", "on DSL", "on his grampa's modem",
                 "on rollerblades", "on designer drugs", "on ISDN",
                 "in  mirrorshades", "from the Sprawl", "on derms",
-                "full of pills" ]
+                "full of pills", "in cyberspace", "in my mentions",
+                "sliding into my DMs", "at Defcon", "at B-Sides", "at RSA" ]
 
 
   def initialize
