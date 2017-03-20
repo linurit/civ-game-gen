@@ -11,7 +11,7 @@ class CyberInsult
                 "That decker", "The boss", "My boss", "The new kid", "That kid" ]
 
 
-  COMPARISON = ["looks like a", "looked like a", "smells like a", "smelled like a"
+  COMPARISON = ["looks like a", "looked like a", "smells like a", "smelled like a",
                 "codes like a", "coded like a", "hacks like a", "hacked like a",
                 "fucks like a", "fucked like a", "works like a", "worked like a",
                 "is a", "was a", "has eyes like a", "played like a", "plays like a",
