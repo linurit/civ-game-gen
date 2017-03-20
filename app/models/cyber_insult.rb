@@ -26,7 +26,7 @@ class CyberInsult
                 "pirate", "COBOL programmer", "C developer", "perl addict",
                 "Apple fanatic" ]
 
-  CONDITIONS = ["with no skills", "who just got beat", "three days dead",
+  CONDITIONS = ["with no skillz", "who just got beat", "three days dead",
                 "with broken hands", "on DSL", "on his grampa's modem",
                 "on rollerblades", "on designer drugs", "on ISDN",
                 "in  mirrorshades", "from the Sprawl", "on derms",
